@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #efefef;
+}
 #logo{
     width: 70px;
+}
+#foto-slider{
+    height: 75vh;
+}
+#carouselExampleAutoplaying{
+    outline: 2px solid black;
 }

@@ -9,38 +9,15 @@
 <link rel="stylesheet" href="pagina.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Mundo De Sabores Chocolates & Cafes</title>
-<style>
-.row> .col, .bd-example-row .row>[class^="col-"]{
-padding-top: .75rem;
-padding-bottom: .75rem;
-background-color: #bbbbbb;
-border: 1px solid #888888;
-}
-</style>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="row">
-            <div class="col">
-              <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+            <div class="col-4">
           </div>
             <div class="col col-auto"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/BMW_logo_%28gray%29.svg/2048px-BMW_logo_%28gray%29.svg.png" id="logo"></div>
             <div class="col">
-              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <nav class="navbar navbar-expand-lg">
               <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -49,19 +26,19 @@ border: 1px solid #888888;
                   <ul class="navbar-nav">
                     
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="navbar-brand" href="#">inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="navbar-brand" href="#">Precios</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown link
+                      <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        productos
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">chocolates</a></li>
+                        <li><a class="dropdown-item" href="#">cafes</a></li>
+                        <li><a class="dropdown-item" href="#">licores</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -70,18 +47,18 @@ border: 1px solid #888888;
             </nav> 
           </div>
         </header>
-        <main class="row">
-            <div class="col"> 
+        <main class="container-fluid row">
+            <div class="col" id="slider-container"> 
                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="chocoramajpg.jpg" class="d-block w-100" alt="chocoramajpg">
+                    <img src="rama.jpg" id="foto-slider" class="d-block w-100" alt="chocoramajpg">
                   </div>
                   <div class="carousel-item">
-                    <img src="Chocolate-1920.jpg" class="d-block w-100" alt="Chocolate-1920">
+                    <img src="Chocolate-1920.jpg" id="foto-slider" class="d-block w-100" alt="Chocolate-1920">
                   </div>
                   <div class="carousel-item">
-                    <img src="granos-de-cafe jpg.jpg " class="d-block w-100" alt="granos-de-cafe jpg">
+                    <img src="granos-de-cafe jpg.jpg " id="foto-slider" class="d-block w-100" alt="granos-de-cafe jpg">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -93,52 +70,7 @@ border: 1px solid #888888;
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-         </div> <!-- TAREA   -->
-            <div class="col col-auto"><div class="d-flex flex-column flex-shrink-0 bg-body-tertiary" style="width: 4.5rem;">
-              <a href="/" class="d-block p-3 link-body-emphasis text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
-                <i class="bi bi-emoji-wink"></i>
-                <span class="visually-hidden">Icon-only</span>
-              </a>
-              <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-                <li class="nav-item">
-                  <a href="#" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
-                    <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Home"><use xlink:href="#home"></use></svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Dashboard" data-bs-original-title="Dashboard">
-                    <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Dashboard"><use xlink:href="#speedometer2"></use></svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Orders" data-bs-original-title="Orders">
-                    <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Orders"><use xlink:href="#table"></use></svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
-                    <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Products"><use xlink:href="#grid"></use></svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Customers" data-bs-original-title="Customers">
-                    <svg class="bi pe-none" width="24" height="24" role="img" aria-label="Customers"><use xlink:href="#people-circle"></use></svg>
-                  </a>
-                </li>
-              </ul>
-              <div class="dropdown border-top">
-                <a href="#" class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="https://github.com/mdo.png" alt="mdo" width="24" height="24" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small shadow">
-                  <li><a class="dropdown-item" href="#">New project...</a></li>
-                  <li><a class="dropdown-item" href="#">Settings</a></li>
-                  <li><a class="dropdown-item" href="#">Profile</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Sign out</a></li>
-                </ul>
-              </div>
-            </div></div>
+         </div> 
         </main>
     </div>
 

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 *{
     font-family: 'Ubuntu', sans-serif;
-    background-color: #efefef;
 }
 #logo{
     width: 70px;
@@ -11,4 +10,15 @@
 }
 #carouselExampleAutoplaying{
     outline: 2px solid black;
+}
+#seccion-2{
+background-color: #624b78;
+margin-top: 10px;
+color: #cccccc;
+}
+#bombones{
+    transition: .3s;
+}
+#bombones:hover{
+    transform: scale(2.05);box-shadow: 0 0 8px;
 }

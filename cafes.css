@@ -1,0 +1,11 @@
+*{background-color: #99eeff;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+img{
+    width: 340px;
+    height: 280px;
+    border-radius: 30%;
+    padding-inline-start: 100px;
+}

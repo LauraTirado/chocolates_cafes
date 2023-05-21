@@ -1,0 +1,15 @@
+*{
+    background-color: #ddbdd5;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+img{
+    height: 300px;
+    width: 350px;
+    padding: 15px;
+    margin-block: 10px;
+    margin-left: 300px;
+    background-color: #ddaacc;
+    border-top-right-radius: 25%;
+}

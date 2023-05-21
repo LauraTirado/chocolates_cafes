@@ -1,8 +1,11 @@
 *{background-color: rgb(208, 180, 145);
 }
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 img{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     padding: 20px;
     border-radius: 20%;
     perspective-origin: 100%;
